@@ -1,0 +1,31 @@
+Good morning, in this presentation we will see number representation thgough
+floating point.
+
+We will se an ilustrative example for this case:
+
+Whenever we have to represent the radius of a planet, we will need
+a completely different number than the one we need to represent the weight of an atom
+
+At first, why we will need a different representation way?
+Well, some problems come up whenever is time to represent the atoms
+WHERE IS THE ZERO POS, HOW CAN WE REPRESENT NEGATIVE EXPONENTS ETC
+
+That's also why we implemented scientific notation in maths, in which we find 
+the mantissa, the base and the exponent. The way with which we are related to 
+these type of numbers makes me unnecessary to explain how do these work, 
+but just in case, these are just aproximations, which make easier to do maths and 
+express magnitudes without having to say any extra information
+
+But we are in computer technology, so we should look for a bit by bit type of 
+representation, with which we can introduce to memory, debugging and convention world,
+so there is another way of representing these numbers
+
+Apart from having some standards for the scientific notation, we also have these for:
+
+- how many bits are represented for the exponent
+- how many bits are represented for the mantissa
+
+We also need through normalization, whats the standard for it, so we have some examples
+What can we observe in these? These represent the same number, this is what we know by normalization
+And each exercise should stablish what kind of normalization is used to each number, for example
+a comma behind the ms 1, a comma after the last zero and that type of things
